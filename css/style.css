@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-img {
+    width: 250px;
+    height: 80px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.font-jost {
+    font-family: 'Jost', sans-serif;
+}
+
+.font-open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center-item {
+    height: 100vh;
+    width: 100wh;
+}
+
+.fs-80 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 !important;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.nav-link {
+    background-color: #fff !important;
+}
+
+.m-t {
+    margin-top: 4% !important;
+}
+
+.carousel-caption {
+    top: 0;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(18, 15, 45, .5);
+    z-index: 1;
+}
+
+.service-item {
+    z-index: 2 !important;
+}
+
+.bg-offer {
+    background-image: url(/image/carousel-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(18, 15, 45, .5);
+    background-blend-mode: multiply;
+}
+
+.box-all:hover {
+    background-color: rgb(113, 113, 225);
+    color: white !important;
+    border-radius: 8px;
+}
+
+blog-date {
+    position: absolute;
+    width: 90px;
+    height: 65px;
+    top: 75px;
+    left: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #d34351;
+}
+
+.blog-date::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -25px;
+    left: 0;
+    border: 13px solid;
+    border-color: transparent #d34351 #d34351 transparent;
+    z-index: -1
+}
+
+.m-t-100 {
+    margin-top: 50%;
+}
